@@ -1,0 +1,64 @@
+		## radar pcd 파일 입력시 데이터 출력 함수 ##
+def radar_pcd_to_data(file_path):
+    return points_data
+
+		## 글로벌 좌표로 매핑시켜주는 함수 ##
+def static_to_global(points_data, global_cal_sensor, local_cal_sensor):
+    return global_data
+
+		## 글로벌 좌표로 ann 매핑 함수 ##
+def one_anns_data_to_box(sample, sample_annotation):
+    return corners[:2, [2, 3, 7, 6]]
+
+		## 샘플의 모든 anns을 글로벌 좌표로 매핑하는 함수 ##
+def sample_anns_to_global(sample):
+    return boxes
+
+		## 레이다 데이터 입력시 박스안에 있는지 판단하는 함수 ##
+def one_radar_data_labeling(pos_data, boxes):
+    return an
+
+		## 토큰 및 센서 입력 시 데이터 출력 함수 - 레이더 ##
+def radar_only_one_sensor_to_data(sample, sensor, t):
+    return radar_data_set
+
+		## 토큰 입력 시 모든 센서 데이터 출력 함수 - 레이더 ##
+def radar_sensor_to_data(sample, t):
+    return radar_data_set
+
+		## 이미지 샘플 데이터 입력시 리스트로 변환 함수 ##
+def sample_data_to_image_list(sample, sensor):
+    return [img_list]
+
+		## 샘플 입력시 이미지 데이터 출력 함수 ##
+def sample_to_image(sample):
+    return image_data
+
+		## 토큰 및 센서 입력 시 데이터 출력 함수 - 라이다 ##
+def lidar_sensor_to_data(sample, t):
+    return lidar_data_set
+
+		## 샘플 입력시 레이더 및 라이다 데이터 출력 ##
+def sample_to_data_radar_lidar(sample):
+    return radar_dataset, lidar_dataset
+
+		## 하나의 레이더 포인터와 가까운 라이다 포인터 찾기 ##
+def nearnest_lidar_points(radar_point, lidar_dataset):
+    return nearnest_lider_dataset
+
+		## 1000개 레이더 데이터 생성 ##
+def radar_data_n_to_1000(radar_dataset, mid_lidar_data
+    return radar_dataset, mid_lidar_data
+
+		## 최종 레이더, 라이다 데이터셋 생성 ##
+def final_lidar_dataset(radar_dataset, lidar_dataset):
+    return radar_dataset, final_lidar_data
+
+		## 레이더 데이터셋에서 라벨과 데이터 분리하기 ##
+def radar_data_and_labal(radar_dataset):
+    return final_radar_data, final_label_data
+
+
+		## scene 입력시 레이더 정보를 출력하는 함수 ##
+def scene_to_radardata(scene_data):
+
