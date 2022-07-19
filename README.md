@@ -1,5 +1,6 @@
 # DataProcessing-Radar_Lidar_Image
 nuScenes 데이터셋 다운로드 필요 : https://www.nuscenes.org/download
+환경 설정시 버전 확인 중요
 
 nuScenes 데이터셋에서 제공하는 RADAR, Lidar, 카메라 데이터를 목적에 맞게 사용할 수 있도록 전처리 하는 코드
 논문 "Radar Ghost Target Detection via Multimodal Transformers"에서 사용된 모델의 입력에 맞도록 데이터를 가공
